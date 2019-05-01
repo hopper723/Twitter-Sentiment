@@ -12,7 +12,70 @@
 		E5175AF32278DE6C00CD4068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5175AF12278DE6C00CD4068 /* Main.storyboard */; };
 		E5175AF52278DE6D00CD4068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5175AF42278DE6D00CD4068 /* Assets.xcassets */; };
 		E5175AF82278DE6D00CD4068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5175AF62278DE6D00CD4068 /* LaunchScreen.storyboard */; };
+		E5D0FA85227A19E1004BA14F /* TweetSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E5D0FA80227A19E1004BA14F /* TweetSentimentClassifier.mlmodel */; };
+		E5D4702E22790B1B00DD95AC /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D4702722790AE900DD95AC /* SwifteriOS.framework */; };
+		E5D4702F22790B1B00DD95AC /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E5D4702722790AE900DD95AC /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E5D4703422795C3800DD95AC /* Secret.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5D4703322795C3800DD95AC /* Secret.plist */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5D4702422790AE900DD95AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5D4701C22790AE900DD95AC /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		E5D4702622790AE900DD95AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5D4701C22790AE900DD95AC /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		E5D4702822790AE900DD95AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5D4701C22790AE900DD95AC /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		E5D4702A22790AE900DD95AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5D4701C22790AE900DD95AC /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		E5D4702C22790AE900DD95AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5D4701C22790AE900DD95AC /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+		E5D4703022790B1B00DD95AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5D4701C22790AE900DD95AC /* Swifter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9F50ED1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E5D4703222790B1B00DD95AC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E5D4702F22790B1B00DD95AC /* SwifteriOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E5175AEA2278DE6C00CD4068 /* Twitter Sentiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter Sentiment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +85,9 @@
 		E5175AF42278DE6D00CD4068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5175AF72278DE6D00CD4068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5175AF92278DE6D00CD4068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5D0FA80227A19E1004BA14F /* TweetSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TweetSentimentClassifier.mlmodel; sourceTree = "<group>"; };
+		E5D4701C22790AE900DD95AC /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+		E5D4703322795C3800DD95AC /* Secret.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secret.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D4702E22790B1B00DD95AC /* SwifteriOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +105,7 @@
 		E5175AE12278DE6C00CD4068 = {
 			isa = PBXGroup;
 			children = (
+				E5D4701C22790AE900DD95AC /* Swifter.xcodeproj */,
 				E5175AEC2278DE6C00CD4068 /* Twitter Sentiment */,
 				E5175AEB2278DE6C00CD4068 /* Products */,
 			);
@@ -59,9 +127,23 @@
 				E5175AF12278DE6C00CD4068 /* Main.storyboard */,
 				E5175AF42278DE6D00CD4068 /* Assets.xcassets */,
 				E5175AF62278DE6D00CD4068 /* LaunchScreen.storyboard */,
+				E5D4703322795C3800DD95AC /* Secret.plist */,
 				E5175AF92278DE6D00CD4068 /* Info.plist */,
+				E5D0FA80227A19E1004BA14F /* TweetSentimentClassifier.mlmodel */,
 			);
 			path = "Twitter Sentiment";
+			sourceTree = "<group>";
+		};
+		E5D4701D22790AE900DD95AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5D4702522790AE900DD95AC /* SwifterDemoiOS.app */,
+				E5D4702722790AE900DD95AC /* SwifteriOS.framework */,
+				E5D4702922790AE900DD95AC /* SwifterMac.framework */,
+				E5D4702B22790AE900DD95AC /* SwifterDemoMac.app */,
+				E5D4702D22790AE900DD95AC /* SwifterTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,10 +156,12 @@
 				E5175AE62278DE6C00CD4068 /* Sources */,
 				E5175AE72278DE6C00CD4068 /* Frameworks */,
 				E5175AE82278DE6C00CD4068 /* Resources */,
+				E5D4703222790B1B00DD95AC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E5D4703122790B1B00DD95AC /* PBXTargetDependency */,
 			);
 			name = "Twitter Sentiment";
 			productName = "Twitter Sentiment";
@@ -110,6 +194,12 @@
 			mainGroup = E5175AE12278DE6C00CD4068;
 			productRefGroup = E5175AEB2278DE6C00CD4068 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E5D4701D22790AE900DD95AC /* Products */;
+					ProjectRef = E5D4701C22790AE900DD95AC /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E5175AE92278DE6C00CD4068 /* Twitter Sentiment */,
@@ -117,11 +207,50 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		E5D4702522790AE900DD95AC /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = E5D4702422790AE900DD95AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E5D4702722790AE900DD95AC /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = E5D4702622790AE900DD95AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E5D4702922790AE900DD95AC /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = E5D4702822790AE900DD95AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E5D4702B22790AE900DD95AC /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = E5D4702A22790AE900DD95AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E5D4702D22790AE900DD95AC /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = E5D4702C22790AE900DD95AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		E5175AE82278DE6C00CD4068 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D4703422795C3800DD95AC /* Secret.plist in Resources */,
 				E5175AF82278DE6D00CD4068 /* LaunchScreen.storyboard in Resources */,
 				E5175AF52278DE6D00CD4068 /* Assets.xcassets in Resources */,
 				E5175AF32278DE6C00CD4068 /* Main.storyboard in Resources */,
@@ -135,12 +264,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D0FA85227A19E1004BA14F /* TweetSentimentClassifier.mlmodel in Sources */,
 				E5175AF02278DE6C00CD4068 /* ViewController.swift in Sources */,
 				E5175AEE2278DE6C00CD4068 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5D4703122790B1B00DD95AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwifteriOS;
+			targetProxy = E5D4703022790B1B00DD95AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E5175AF12278DE6C00CD4068 /* Main.storyboard */ = {
@@ -281,6 +419,7 @@
 		E5175AFD2278DE6D00CD4068 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Twitter Sentiment/Info.plist";
@@ -298,6 +437,7 @@
 		E5175AFE2278DE6D00CD4068 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Twitter Sentiment/Info.plist";
